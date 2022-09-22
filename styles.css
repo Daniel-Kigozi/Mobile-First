@@ -8,7 +8,7 @@
     font-family: Inter, sans-serif;
   }
 
-  section {
+  .Home-Page {
     background-image: url("media/header-illsutration-mobile@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@
     margin: 0;
   }
 
-  p {
+  #page-1 {
     text-align: center;
     font-size: 20px;
     margin-top: 40px;
@@ -84,5 +84,117 @@
 
   .social-icons li {
     margin: 0 10px;
+  }
+  .list-item {
+    background-color: #EBF0EE;
+    border: 1px solid #D0D9D4;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .first-item {
+    border-radius: 8px 8px 5px 5px;
+    margin-top: 200px;
+    background-color: white;
+    width: 100%;
+  }
+  .first-item-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+  }
+  .title-item, .title-sub {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .content-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content-inner-li {
+    border: 5px solid #EBF0EE;
+    font-size: 10px;
+    background-color: #EBF0EE;
+    padding: 5px 5px;
+    border-radius: 5px;
+  }
+  .button {
+    font-size: 15px;
+    background: #36B37F;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  #page-about {
+    text-align: center;
+    margin: 0 10px;
+  }
+  #about-img {
+    margin-bottom: 20px;
+  }
+  #lang {
+    margin-bottom: 10px;
+  }
+  #about-log {
+    background-color: #EBF0EE;
+    border: 1px solid #D0D9D4;
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+  }
+  .content-inner-about {
+    color: green;
+    border: 5px solid #EBF0EE;
+    font-size: 10px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 2px;
+    
+  
+  }
+  .content-inner-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* #about-log {
+    margin-top: 10px;
+    border: 1px solid #D0D9D4;
+    background-color: #EBF0EE;
+   
+  } */
+  #page-auto {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 50px;
+    color: dark blue;
+    font-weight: 500px;
+  }
+  #submision-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+    justify-content: center;
+    align-items: center;
   }
 }
