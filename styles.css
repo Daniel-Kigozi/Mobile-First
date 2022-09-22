@@ -1,4 +1,13 @@
 @media (max-width: 768px) {
+  @font-face {
+    font-family: Inter;
+    src: url("media/github/Inter-VariableFont_slnt,wght.ttf");
+  }
+
+  html {
+    font-family: Inter, sans-serif;
+  }
+
   section {
     background-image: url("media/header-illsutration-mobile@2x.png");
     background-repeat: no-repeat;
@@ -8,7 +17,17 @@
   .Nav-bar {
     display: flex;
     justify-content: space-between;
-    margin: 5px 15px;
+    margin-top: 50px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+  }
+
+  #logo {
+    margin-right: 10px;
   }
 
   ul {
@@ -29,18 +48,19 @@
   .title {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
   }
 
   #main-title {
-    color: black;
-    font-size: 50px;
+    color: dark blue;
+    font-size: 40px;
     text-align: center;
     margin: 0;
   }
 
   #second-title {
     color: green;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin: 0;
   }
@@ -48,6 +68,10 @@
   p {
     text-align: center;
     font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   ul.social-icons {
