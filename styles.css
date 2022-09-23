@@ -8,7 +8,7 @@
     font-family: Inter, sans-serif;
   }
 
-  section {
+  .Home-Page {
     background-image: url("media/header-illsutration-mobile@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,13 +65,15 @@
     margin: 0;
   }
 
-  p {
+  #page-1 {
     text-align: center;
     font-size: 20px;
+    font-style: normal;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: 400;
   }
 
   ul.social-icons {
@@ -84,5 +86,189 @@
 
   .social-icons li {
     margin: 0 10px;
+  }
+
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebf0ee;
+    border: 1px solid #d0d9d4;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .first-item {
+    display: grid;
+    border-radius: 8px 8px 5px 5px;
+    margin-top: 200px;
+    background-color: white;
+    width: 100%;
+  }
+
+  .first-item-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .first-item-inner-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-image: url("media/illustration- about me- mobile.png");
+    background-repeat: no-repeat;
+  }
+
+  .title-item,
+  .title-sub {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content-inner-li {
+    border: 5px solid #ebf0ee;
+    font-size: 10px;
+    background-color: #ebf0ee;
+    padding: 5px 5px;
+    border-radius: 5px;
+  }
+
+  .button {
+    font-size: 15px;
+    background: #36b37f;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .button:hover {
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.2);
+    font-size: 15px;
+    background: #36b37f;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .button:active {
+    font-size: 15px;
+    background: #008552;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  #page-about {
+    text-align: center;
+    margin: 0 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  #about-img {
+    margin-bottom: 20px;
+  }
+
+  #lang {
+    margin-bottom: 10px;
+  }
+
+  #about-log {
+    background-color: #ebf0ee;
+    border: 1px solid #d0d9d4;
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+  }
+
+  .content-inner-about {
+    color: green;
+    border: 5px solid #ebf0ee;
+    font-size: 10px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 2px;
+  }
+
+  .content-inner-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .about-log {
+    background-color: #ebf0ee;
+    margin: 5px 0;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #page-auto {
+    text-align: center;
+    margin: 15px 10px;
+    font-size: 40px;
+    color: dark blue;
+    font-weight: 500px;
+  }
+
+  #submision-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .first-item-inner-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #logo-bottom {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
   }
 }
