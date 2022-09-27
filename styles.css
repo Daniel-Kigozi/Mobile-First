@@ -271,4 +271,9 @@
     margin-right: auto;
     margin-top: 30px;
   }
+  .contact-section {
+    border: 1px solid blue;
+  }
+  
+
 }
