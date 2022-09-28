@@ -271,4 +271,42 @@
     margin-right: auto;
     margin-top: 30px;
   }
+
+  .contact-section {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: 750px;
+  }
+
+  input {
+    width: 260px;
+    height: 20px;
+    margin: 5px auto;
+    padding: 0;
+    border: 1px solid #d0d9d4;
+    border-radius: 5px;
+  }
+
+  textarea {
+    width: 260px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin-top: 5px;
+  }
+
+  #fullname,
+  #email,
+  #textarea {
+    padding: 5px;
+  }
+
+  .contact-par {
+    font-size: 30px;
+    font-weight: 200px;
+    width: 90%;
+    margin: 10px auto;
+    color: dark blue;
+  }
 }

@@ -1,2 +1,4 @@
 # files to be ignored
 /node_modules
+
+.vscode
