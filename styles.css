@@ -194,6 +194,17 @@
 
   #about-img {
     margin-bottom: 20px;
+    
+    height: auto;
+    width: auto;
+    transition-property: height width;
+    
+  
+  }
+  #about-img:hover{
+   transform: scale(0.7);
+
+
   }
 
   #lang {
