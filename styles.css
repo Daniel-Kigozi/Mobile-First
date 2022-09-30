@@ -203,6 +203,7 @@
   }
   #about-img:hover{
    transform: scale(0.7);
+   background-color: #172b4d;
 
 
   }
