@@ -530,6 +530,11 @@
 
   #about-img {
     margin-bottom: 20px;
+    transition: transform;
+  }
+
+  #about-img:hover {
+    transform: scale(1.4);
   }
 
   #lang {
@@ -669,6 +674,14 @@
     height: 30px;
     border-radius: 5px;
     border: 1px solid #d0d9d4;
+    padding: 5px;
+    transition-property: padding;
+    transition-delay: 1s;
+  }
+
+  #firstname:hover,
+  #lastname:hover {
+    padding-left: 15px;
   }
 
   .first-item-inner-about-4 {
@@ -694,6 +707,12 @@
     border-radius: 5px;
     border: 1px solid #d0d9d4;
     padding: 5px;
+    transition-property: padding;
+    transition-delay: 1s;
+  }
+
+  #email:hover {
+    padding-left: 15px;
   }
 
   #textarea {
