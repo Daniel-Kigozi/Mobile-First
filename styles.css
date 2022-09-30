@@ -191,24 +191,9 @@
     font-weight: 400;
     line-height: 28px;
   }
-about-img
-  # {
+
+  #about-img {
     margin-bottom: 20px;
-<<<<<<< HEAD
-=======
-    
-    height: auto;
-    width: auto;
-    transition-property: height width;
-    
-  
-  }
-  #about-img:hover{
-   transform: scale(0.7);
-   background-color: #172b4d;
-
-
->>>>>>> 004776eb9a601650afe05a950d65bd9a5b743474
   }
 
   #lang {
@@ -510,7 +495,6 @@ about-img
     margin-bottom: 20px;
     text-decoration: none;
     color: white;
-    
   }
 
   .button-line:hover {
@@ -546,6 +530,11 @@ about-img
 
   #about-img {
     margin-bottom: 20px;
+    transition: transform;
+  }
+
+  #about-img:hover {
+    transform: scale(1.4);
   }
 
   #lang {
