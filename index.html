@@ -3,19 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <title> My Portfolio</title>
+        <title>My Portfolio</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
             <section class="home-section">
             <header class="Nav-bar">
                 <nav>
-                    <a href="#">Welcome</a>
-                    <img id="logo" src="https://img.icons8.com/material-sharp/18/000000/menu--v1.png"/>
+                    <a class="welcome" href="#">Welcome</a>
+                    <img id="logo" src="https://img.icons8.com/material-sharp/18/000000/menu--v1.png" alt="This is my Logo image"/>
                     <ul class="nav-list">
-                        <li>Portfolio</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        
                     </ul>
                 </nav>
             </header>
@@ -31,19 +32,19 @@
                 <div>
                     <social>
                         <ul class="social-icons">
-                            <li><img src="media/github.svg"></li>
-                            <li><img src="media/twitter.svg"></li>
-                            <li><img src="media/Linkedin icon.svg"></li>
-                            <li><img src="media/medium.svg"></li>
-                            <li><img src="media/angellist.svg"></li>
+                            <li><a href="#"><img src="media/github.svg" alt="the github logo"></a></li>
+                            <li><a href="#"><img src="media/twitter.svg" alt="the twitter logo"></a></li>
+                            <li><a href="#"><img src="media/Linkedin icon.svg" alt="the linkedin logo" ></a></li>
+                            <li><a href="#"><img src="media/medium.svg" alt="the medium logo"></a></li>
+                            <li><a href="#"><img src="media/angellist.svg" alt="the angellist logo"></a></li>
                         </ul>  
                     </social>
                 </div>
-                <img id="logo-bottom" src="media/Disabled.png"/>
+                <img id="logo-bottom" src="media/Disabled.png" alt="the arrow-down icon"/>
             </section>
         </section>
         <section class="works">
-                <h1 class="title-item"><span>My Recent</span><span>Works</span></h1>
+                <h2 class="title-item"><span>My Recent</span><span>Works</span></h2>
                 <br>
                 <ul class="main-works">
                     <li class="list-item">
@@ -134,7 +135,7 @@
         </section>
         <section class="about-me">
             <div class="first-item-inner-ul">
-                <h1>About me</h1>
+                <h2>About me</h2>
                 <p id="page-about">I can help you build a product feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
                 <a class="button button-line" type="button" href="#">Get My Resume</a>
             </div>
@@ -142,7 +143,7 @@
                 <ul class="first-item-inner-about first-item-inner-item">
                     <li class="about-log">
                         <ul class="first-item-inner-about first-item-inner-about-2">
-                        <li><img  id="about-img" src="media/icon-languages.svg"/></li>
+                        <li><img  id="about-img" src="media/icon-languages.svg" alt="this is the language icon"/></li>
                         <li id="lang">Languages</li>
                         </ul>
                         <ul class="content-inner-page">
@@ -154,7 +155,7 @@
                     </li>
                     <li class="about-log">
                         <ul class="first-item-inner-about first-item-inner-about-2">
-                        <li><img  id="about-img" src="media/icon-frameworks.svg"/></li>
+                        <li><img  id="about-img" src="media/icon-frameworks.svg" alt="this is the Frameworks icon"/></li>
                         <li id="lang">Frameworks</li>
                         </ul>
                         <ul class="content-inner-page">
@@ -167,7 +168,7 @@
                     </li>
                    <li class="about-log">
                         <ul class="first-item-inner-about first-item-inner-about-2">
-                        <li><img  id="about-img" src="media/icon-skills.svg"/></li>
+                        <li><img  id="about-img" src="media/icon-skills.svg" alt="this is the skills icon"/></li>
                         <li id="lang">Skills</li>
                         </ul>
                         <ul class="content-inner-page">
@@ -210,21 +211,21 @@
                     <ul class="first-item-inner-about-3">
                         <ul class="form-about-1">
                             <li class="form-about">
-                                <label for="firstname"></label>
+                                <label for="firstname">Firstname</label>
                                 <input id="firstname" type="text" name="full_name" placeholder="first name" size="30" required>
                             </li>
                             <li class="form-about">
-                                <label for="lastname"></label>
+                                <label for="lastname">Lastname</label>
                                 <input id="lastname" type="text" name="full_name" placeholder="last name" size="30" required>
                             </li>
                         </ul>
                         <ul class="first-item-inner-about-4">
                             <li class="form-about-li">
-                                <label for="email"></label>
+                                <label for="email">email</label>
                                 <input id="email" type="email" name="email_name" placeholder="email address" size="25" required>
                             </li>
                             <li class="form-about-li">
-                                <label for="textarea"></label>
+                                <label for="textarea">message</label>
                                 <textarea id="textarea" type="textarea" name="textarea" placeholder="Type something here..." size="500" required></textarea>
                             </li>
                         </ul>
@@ -236,11 +237,11 @@
         <footer class="icons-contact11">
             <social>
                 <ul class="social-icons">
-                    <li><img src="media/github.svg"></li>
-                    <li><img src="media/twitter.svg"></li>
-                    <li><img src="media/Linkedin icon.svg"></li>
-                    <li><img src="media/medium.svg"></li>
-                    <li><img src="media/angellist.svg"></li>
+                    <li><a href="#"><img src="media/github.svg" alt="the github logo"></a></li>
+                    <li><a href="#"><img src="media/twitter.svg" alt="the twitter logo"></a></li>
+                    <li><a href="#"><img src="media/Linkedin icon.svg" alt="the linkedin logo" ></a></li>
+                    <li><a href="#"><img src="media/medium.svg" alt="the medium logo"></a></li>
+                    <li><a href="#"><img src="media/angellist.svg" alt="the angellist logo"></a></li>
                 </ul>  
             </social>
         </footer>
