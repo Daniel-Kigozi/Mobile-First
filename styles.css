@@ -41,7 +41,7 @@
   }
 
   .nav-list {
-    display: none;
+    visibility: hidden;
     flex-wrap: wrap;
   }
 
@@ -344,6 +344,9 @@
     text-decoration: none;
     color: black;
     margin-left: 10px;
+  }
+
+  .welcome {
     display: none;
   }
 
@@ -369,6 +372,11 @@
     justify-content: space-between;
     width: 30%;
     margin-right: 40px;
+  }
+
+  .nav-list li {
+    list-style: none;
+    color: black;
   }
 
   .title {
@@ -738,5 +746,9 @@
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size: 1100px 600px;
+  }
+
+  label {
+    visibility: hidden;
   }
 }
