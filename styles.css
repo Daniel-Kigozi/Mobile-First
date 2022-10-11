@@ -6,6 +6,7 @@
 
   html {
     font-family: Inter, sans-serif;
+    scroll-behavior: smooth;
   }
 
   .Home-Page {
@@ -17,7 +18,10 @@
   .Nav-bar {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 0;
+    padding-right: 15px;
+    min-height: 70px;
+    align-items: center;
   }
 
   a {
@@ -26,8 +30,70 @@
     margin-left: 10px;
   }
 
-  #logo {
-    margin-right: 10px;
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15px;
+    width: 28px;
+    z-index: 999;
+  }
+
+  .bar {
+    height: 3px;
+    background-color: gray;
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+    transition: 0.5s ease;
+    background: gray;
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+    transition: 0.5s ease;
+    background: gray;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+    transition: 0.5s ease all;
+    background: gray;
+  }
+
+  .nav-menu {
+    left: -120%;
+    height: 90%;
+    border-radius: 0 0 5px 5px;
+    position: fixed;
+    top: 0;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0 300px 28px;
+    background: #fff;
+    width: 100%;
+    transition: 0.5s ease-out;
+  }
+
+  .nav-item {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 28px;
+    font-weight: 600;
+    transition: 0.3s;
+    color: #000;
+    padding-top: 15px;
+  }
+
+  .nav-link:hover {
+    color: #1422bb;
+  }
+
+  .nav-menu.active {
+    left: 0;
   }
 
   ul {
@@ -38,11 +104,6 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-  }
-
-  .nav-list {
-    visibility: hidden;
-    flex-wrap: wrap;
   }
 
   .title {
@@ -329,7 +390,8 @@
     background-image: url("media/Header-llustration-desktop@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1000px 600px;
+    background-size: cover;
+    height: 100vh;
   }
 
   .Nav-bar {
@@ -366,7 +428,7 @@
     width: 90%;
   }
 
-  .nav-list {
+  .nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
