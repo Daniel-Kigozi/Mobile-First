@@ -7,19 +7,23 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-            <section class="home-section">
+        <section class="home-section">
             <header class="Nav-bar">
                 <nav>
-                    <a class="welcome" href="#">Welcome</a>
-                    <img id="logo" src="https://img.icons8.com/material-sharp/18/000000/menu--v1.png" alt="This is my Logo image"/>
-                    <ul class="nav-list">
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        
+                    <a class="welcome" id="welcome" href="#">Welcome</a>
+                    <ul class='nav-menu'>
+                        <li ><a class="nav-link" href="#works">Portifolio</a> </li>
+                        <li ><a class="nav-link"  href="#about-me">About</a></li>
+                        <li ><a class="nav-link"  href="#contact-section">Contact</a></li>
                     </ul>
+                    <div class="hamburger-menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
                 </nav>
             </header>
+            
             <section class="Home-Page">
                 <div class="title">
                     <h1 id="main-title">Hey there. I'm Daniel</h1>
@@ -43,7 +47,7 @@
                 <img id="logo-bottom" src="media/Disabled.png" alt="the arrow-down icon"/>
             </section>
         </section>
-        <section class="works">
+        <section id="works" class="works">
                 <h2 class="title-item"><span>My Recent</span><span>Works</span></h2>
                 <br>
                 <ul class="main-works">
@@ -133,7 +137,7 @@
                     </li>
                 </ul>
         </section>
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <div class="first-item-inner-ul">
                 <h2>About me</h2>
                 <p id="page-about">I can help you build a product feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
@@ -182,7 +186,7 @@
                 </ul>
             </div>
         </section>
-        <section class="contact-section">
+        <section id="contact-section" class="contact-section">
            <div class="contact-inner-label">
                 <p class="contact-par">I'm always interested in hearing about new projects, so if you'd like to chat get in touch</p>
                 <form action="https://formspree.io/f/xbjbownl" method="post">
@@ -245,5 +249,7 @@
                 </ul>  
             </social>
         </footer>
+        <script src="/mobile.js"></script>
     </body>
+    
 </html>
