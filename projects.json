@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "",
+        "LiveLink": ""
+    },
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "",
+        "LiveLink": ""
+    },
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "",
+        "LiveLink": ""
+    },
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "",
+        "LiveLink": ""
+    }
+
+
+]
