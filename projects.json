@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "./media/Snapshoot Portfolio.png",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "https://github.com/Daniel-Kigozi/Mobile-First",
+        "LiveLink": "https://daniel-kigozi.github.io/"
+    },
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "./media/Snapshoot Portfolio.png",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "https://github.com/Daniel-Kigozi/Mobile-First",
+        "LiveLink": "https://daniel-kigozi.github.io/"
+    },
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "./media/Snapshoot Portfolio.png",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "https://github.com/Daniel-Kigozi/Mobile-First",
+        "LiveLink": "https://daniel-kigozi.github.io/"
+    },
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "./media/Snapshoot Portfolio.png",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "https://github.com/Daniel-Kigozi/Mobile-First",
+        "LiveLink": "https://daniel-kigozi.github.io/"
+    },
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "./media/Snapshoot Portfolio.png",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "https://github.com/Daniel-Kigozi/Mobile-First",
+        "LiveLink": "https://daniel-kigozi.github.io/"
+    },
+    {
+        "name": "Multi-Post Stories",
+        "client": "Gain+Glory",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "image": "./media/Snapshoot Portfolio.png",
+        "technologies": ["Ruby on rails", "Html", "Css", "Javascript"],
+        "SourceLink": "https://github.com/Daniel-Kigozi/Mobile-First",
+        "LiveLink": "https://daniel-kigozi.github.io/"
+    }
+
+
+]
