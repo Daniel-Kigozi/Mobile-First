@@ -22,7 +22,7 @@ const displayProjectDetails = ({ LiveLink, SourceLink, description, image, techn
     div.innerHTML = `
     <div class=inner-pop-btn>
     <a class="close-button" id="close-btn" type="button" href="">X</a>
-    <div class="popup-img"><img src="${image}"/></div>
+    <div class="popup-img"><img id="my-img" src="${image}"/></div>
     </div>
     <div class="popup-data">
         <p class="pop-para">${name}</p>
@@ -34,7 +34,7 @@ const displayProjectDetails = ({ LiveLink, SourceLink, description, image, techn
     </div>
     <p class="pop-desc">${description}</p>
     <div class=main-works-pop>
-        <a class="button button-line" type="button" href="${LiveLink}">See Live <span><img src="media/github.svg"/></span></a>
+        <a class="button button-line" type="button" href="${LiveLink}">See Live <span><img src="media/livepop.svg"/></span></a>
         <a class="button button-line" type="button" href="${SourceLink}">See Source <span><img id="img-pop" src="media/github.svg"/></span></a>  
     </div>
   
