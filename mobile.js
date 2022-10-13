@@ -152,8 +152,8 @@ const getInputData = () => {
 
     formData.name = localFormData.name;
     formData.email = localFormData.email;
-    formData.textarea = localFormData.message;
-    console.log(formData.name);
+    formData.message = localFormData.message;
+    
   }
 };
 
