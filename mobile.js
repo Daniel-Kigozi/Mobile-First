@@ -8,6 +8,12 @@ const projectWork = document.querySelector('.main-works');
 const formMobile = document.querySelector('#mobile-form');
 const formDesktop = document.querySelector('#desk-top-form');
 
+const formData = {
+  name: '',
+  email: '',
+  message: ''
+};
+
 hamburgerMenu.addEventListener('click', () => {
   hamburgerMenu.classList.toggle('active');
   navMenu.classList.toggle('active');
@@ -122,5 +128,33 @@ formDesktop.addEventListener('submit', (e) =>{
   }
 })
 
+
+document.querySelectorAll('.form-input').forEach((input)=>
+input.addEventListener('keyup', ()=>{
+  if(input.name ==='name'){
+    formData.name = input.value;
+  } else if(input.type ==='email'){
+    formData.email = input.value;
+  }else if(input.name === 'textarea'){
+    formData.message = input.value;
+  }
+  localStorage.setItem('formInputs', JSON.stringify(formData));
+  
+}));
+
+const getInputData = () => {
+  if(localStorage.getItem('formInputs') !== null){
+    let localFormData = JSON.parse(localStorage.getItem('formInputs'));
+
+    document.getElementById('name').value = localFormData.name;
+    document.getElementById('email').value = localFormData.email;
+    document.getElementById('textarea').value = localFormData.message;
+
+    formData.name = localFormData.name;
+    formData.email = localFormData.email;
+    formData.message = localFormData.message;
+    
+  }
+};
 
 
