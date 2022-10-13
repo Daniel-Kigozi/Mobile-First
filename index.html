@@ -190,7 +190,7 @@
         <section id="contact-section" class="contact-section">
            <div class="contact-inner-label">
                 <p class="contact-par">I'm always interested in hearing about new projects, so if you'd like to chat get in touch</p>
-                <form action="https://formspree.io/f/xbjbownl" method="post">
+                <form action="https://formspree.io/f/xbjbownl" method="post" id="mobile-form">
                     <ul class="first-item-inner-about">
                         <li>
                             <li >
@@ -206,13 +206,15 @@
                                 <textarea id="textarea" type="textarea" name="textarea" placeholder="Enter text here" size="500" required></textarea>
                             </li>
                         </li>
+                        <span id="error-mobile" class="error-msg"></span>
                     </ul>
+                    
                 <button class="button"> <a type="submit">Get in touch</a></button>
                 </form>
             </div>
             <div class="contact-inner-label-desktop">
                 <p class="contact-par">I'm always interested in hearing about new projects, so if you'd like to chat get in touch</p>
-                <form action="https://formspree.io/f/xbjbownl" method="post">
+                <form action="https://formspree.io/f/xbjbownl" method="post" id="desk-top-form">
                     <ul class="first-item-inner-about-3">
                         <ul class="form-about-1">
                             <li class="form-about">
@@ -227,7 +229,7 @@
                         <ul class="first-item-inner-about-4">
                             <li class="form-about-li">
                                 <label for="email">email</label>
-                                <input id="email" type="email" name="email_name" placeholder="email address" size="25" required>
+                                <input id="email" type="email" name="email_name" placeholder="email address" size="25" class="email-desktop" required>
                             </li>
                             <li class="form-about-li">
                                 <label for="textarea">message</label>
@@ -235,7 +237,8 @@
                             </li>
                         </ul>
                     </ul>
-                <button class="button button-line" id="desk-button"> Get in touch</button>
+                    <span id="error-desk" class="error-msg"></span>
+                <button class="button button-form" id="desk-button"> Get in touch</button>
                 </form>
             </div>
         </section>
@@ -254,7 +257,7 @@
             </social>
 
         </footer>
-        <script src="/mobile.js"></script>
+        <script src="./mobile.js"></script>
 
     </body>
     

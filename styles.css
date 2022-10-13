@@ -464,6 +464,10 @@
     font-size: 16px;
     padding: 12px 24px;
   }
+
+  .error-msg {
+    color: red;
+  }
 }
 
 @media (min-width: 768px) {
@@ -999,5 +1003,21 @@
     font-size: 16px;
     margin: 0;
     background-color: #d3d3d3;
+  }
+
+  .error-msg {
+    color: red;
+  }
+
+  .button-form {
+    display: block;
+    font-size: 15px;
+    background: #36b37f;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
   }
 }

@@ -5,6 +5,8 @@ const body = document.querySelector('body');
 const popup = document.querySelector('.button-line');
 const popupbody = document.querySelector('.popup-body');
 const projectWork = document.querySelector('.main-works');
+const formMobile = document.querySelector('#mobile-form');
+const formDesktop = document.querySelector('#desk-top-form');
 
 hamburgerMenu.addEventListener('click', () => {
   hamburgerMenu.classList.toggle('active');
@@ -83,7 +85,7 @@ window.onload = async ()=>{
     const response = await fetch('./projects.json');
     const data = await response.json();
     let itemId = e.srcElement.attributes.id.value;
-    console.log(data[itemId], itemId);
+    // console.log(data[itemId], itemId);
     popupbody.append(displayProjectDetails(data[itemId]));
     popupbody.classList.add('showpopup');
 
@@ -99,3 +101,26 @@ window.onload = async ()=>{
 }
 
 getProjects();
+
+formMobile.addEventListener('submit', (e) =>{
+  const email = document.getElementById('email').value;
+  e.preventDefault();
+  if(email.toLowerCase() === email){
+    formMobile.submit();
+  } else {
+    document.querySelector('#error-mobile').textContent='Email should include only lowercase!';
+  }
+})
+
+formDesktop.addEventListener('submit', (e) =>{
+  const email = document.querySelector('.email-desktop').value;
+  e.preventDefault();
+  if(email.toLowerCase() === email){
+    formDesktop.submit();
+  } else {
+    document.querySelector('#error-desk').textContent='Email should include only lowercase!';
+  }
+})
+
+
+
